@@ -78,7 +78,7 @@ void heap_sort(int *array, size_t size)
 
 	for (idx = size - 1; idx > 0; idx--)
 	{
-		swap_ints(array, array + idx);
+		swap_func(array, array + idx);
 		print_array(array, size);
 
 		max_elm(array, size, idx, 0);
