@@ -18,7 +18,7 @@ int take_func(int *array, int size)
 			max_elm = array[i];
 	}
 
-	return max_elm;
+	return (max_elm);
 }
 
 /**
